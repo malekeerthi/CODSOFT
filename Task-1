@@ -39,8 +39,8 @@ while True:
     else:
         print("Invalid Input") 
     #check if user wants anaother calculation
-    next_calculation=input("Lets do another calculation (y/n)?:")
-    if next_calculation=='no':
+    next_calculation=input("Lets do another calculation? (yes/no):")
+    if next_calculation.lower() !='yes':
         break
 
    
