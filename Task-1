@@ -40,7 +40,7 @@ while True:
         print("Invalid Input") 
     #check if user wants anaother calculation
     next_calculation=input("Lets do another calculation (y/n)?:")
-    if next_calculation!='yes':
+    if next_calculation=='no':
         break
 
    
